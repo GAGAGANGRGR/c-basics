@@ -1,0 +1,38 @@
+What is return 0?
+indicate that program ended successfully
+
+What is int main?
+ function main begins program execution 
+
+What is int?
+The keyword int to the left of main indicates that main “returns” an
+integer (whole number) value.
+
+What is printf?
+instructs the computer to perform an action, namely to print on the screen the string of
+characters marked by the quotation marks
+
+What does a header file exactly do?
+What is a file?
+File contains data.
+What will header file contain?
+We explain the contents of headers in more detail in Chapter 5.
+Aaaamele
+
+What is !\n?
+newline
+
+Why only flower braces?
+That is the syntax of a function.
+Function syntax is 
+return type Function Name (argument list_)
+{
+  block of statments;
+}
+
+What is a compiler.
+A compiler converts a C program to an exectuable program.
+What is an executable program?
+
+Aaaaamele.
+
