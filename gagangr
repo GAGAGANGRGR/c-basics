@@ -2,3 +2,12 @@ what is preprocessor?
 what is compailer.what dose it do?
 what is preprocessing?
 what is CPP?
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("enter two num");
+    scanf("%d%d" ,&a,&b);
+    sum=a+b;
+    printf("a+b=%d" ,sum);
+}
