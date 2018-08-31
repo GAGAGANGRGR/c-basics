@@ -35,4 +35,13 @@ A compiler converts a C program to an exectuable program.
 What is an executable program?
 
 Aaaaamele.
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("enter two num");
+    scanf("%d%d" ,&a,&b);
+    sum=a+b;
+    printf("a+b=%d" ,sum);
+}
 
