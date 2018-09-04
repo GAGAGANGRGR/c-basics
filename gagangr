@@ -9,9 +9,10 @@
 what is compailer.what dose it do?m. 
         The compiler translatesthe C program into machine language-code (also referred to as object code).
      or Compilers translate high-level language programs into machine-language programs. High-level
-        languages (like C) contain English words and conventional mathematical notations.    
-        
-        
-        
-        
- 
+        languages (like C) contain English words and conventional mathematical notations.
+what is secoundery devise?        
+ at first we wants to write the c program what we have known with help of editor program, and then copail it.
+ if we get error correct it. store in to secounddery device like hard disk.the compiler translates the C program into machine-language
+code.
+Programmer creates programin the editor and stores it ondisk.
+Preprocessor process the program coad
