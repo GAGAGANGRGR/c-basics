@@ -3,6 +3,7 @@
  {
      printf("hello");
  }
+ 
  What is return 0?
    indicate that program ended successfully
 
@@ -25,7 +26,7 @@ newline
 
 Why only flower braces?
    That is the syntax of a function.
-Function syntax is 
+ Function syntax is 
   return type Function Name (argument list_)
   {
   block of statments;
