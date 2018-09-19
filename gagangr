@@ -4,134 +4,148 @@
      printf("hello");
  }
  
- What is return 0?
-   indicate that program ended successfully
+1. What is return 0?
+    indicate that program ended successfully
 
-What is int main?
-   function main begins program execution 
+2.What is int main?
+    function main begins program execution 
 
-What is int?
-  The keyword int to the left of main indicates that main “returns” an
-  integer (whole number) value.
+3.What is int?
+     The keyword int to the left of main indicates that main “returns” an
+      integer (whole number) value.
 
-What is printf?
-   instructs the computer to perform an action, namely to print on the screen the string of
-   characters marked by the quotation marks
+3.What is printf?
+     instructs the computer to perform an action, namely to print on the screen the string of
+       characters marked by the quotation marks
    
-What is a file?
-  File contains data.
+4.What is a file?
+    File contains data.
 
-What is !\n?
-newline
+5.What is !\n?
+   newline
 
-Why only flower braces?
-   That is the syntax of a function.
- Function syntax is 
+6.Why only flower braces?
+    That is the syntax of a function.
+  Function syntax is 
   return type Function Name (argument list_)
   {
   block of statments;
   }
   
-what is a program?
-   A very simplistic takes input from the user, computes "something", outputs the result.
+7.what is a program?
+     A very simplistic takes input from the user, computes "something", outputs the result.
   
-  why is c necessary?
-    C is the language used in embedded systems and system level programs like Operating Systems.
-    Linux is written using C.
+8.why is c necessary?
+      C is the language used in embedded systems and system level programs like Operating Systems.
+      Linux is written using C.
   
-What is int?
+9.What is int?
   Int is a builtin data type.
   
-What is a data type?
+10.What is a data type?
       A datatype specifies the type of a variable.
       
-What is a variable?
-  A variable stores values.
+11.What is a variable?
+     A variable stores values
   What are values.
-  Values can be numbers - integers, floacting point number ( real numbers), characters - Simple values.
+      Values can be numbers - integers, floacting point number ( real numbers), characters - Simple values.
                           20, 2.2, 'c'.
   
-what is a compiler?
-   A c compiler is a program which takes a C program file and creates a exectuble program file
+12.what is a compiler?
+    A c compiler is a program which takes a C program file and creates a exectuble program file
    
-What is a file.
-   A file is where we store information.
-   Files are used for permanent retention of data. Computers store files on secondary
-   storage devices, especially disk storage devices. 
+13.What is a file.
+     A file is where we store information.
+     Files are used for permanent retention of data. Computers store files on secondary
+     storage devices, especially disk storage devices. 
      
-where do we type a programme?
-    In the editor, ide, or in onlinegdb.
+ 14.where do we type a programme?
+     In the editor, ide, or in onlinegdb.
     
-why is semicolon used after every statement?
-  End of statement. It is syntax.
+15.why is semicolon used after every statement?
+     End of statement. It is syntax.
   
-What is syntax. 
-  Syntax are the punction marks used the compiler.
-  Also Human beings after they understand the syntax.
+16.What is syntax. 
+     Syntax are the punction marks used the compiler
   
-how can i run c programme?
-  gcc tst.c
-  ./a.out
-  online gdb click on run.
+17.how can i run c programme?
+     gcc tst.c
+    ./a.out
+    online gdb click on run.
   
-how to end a program?
-    THe program ends where the main ends.
+18.how to end a program?
+     THe program ends where the main ends.
     
-why should two open brackets be used after main?
-   1. Main is a function.
-   2. All functions take parameters surrounded by paranthesis. ( )
-   3. It is the syntax of function.
+19.why should two open brackets be used after main?
+     1. Main is a function.
+     2. All functions take parameters surrounded by paranthesis. ( )
+     3. It is the syntax of function.
    
-when we use printf,why should we put everything under double quotations?
-   doubles quotes are used to denote strings to the compiler.
-   main is function name  "main" string literal.
-   main()
-   {
-   printf("main");
-   }
+20.when we use printf,why should we put everything under double quotations?
+     doubles quotes are used to denote strings to the compiler.
+     main is function name  "main" string literal.
+     main()
+     {
+     printf("main");
+     }
 
-what is stdio.h? 
-  It is a a system header file stored in /usr/include.
-  The header file contains prototypes for functions.
-  Compilers use function prototypes to check if the right type and right number of parmeter
-  are passed by the calling function to the called function.
-    For example.
-       Calling function is main.
-       Called function is printf
-       the prototype of printf is in stdio.h.
+21.what is stdio.h? 
+      It is a a system header file stored in /usr/include.
+      The header file contains prototypes for functions.
+      Compilers use function prototypes to check if the right type and right number of parmeter
+      are passed by the calling function to the called function.
+            For example.
+              Calling function is main.
+              Called function is printf
+              the prototype of printf is in stdio.h.
     
-wy should we only use return 0 ?
-    What ever main function return goes to the shell from which the program is invoked.
-    This values is used to verify if the program ran successfully.
-    In link 0 means success  and any other values means failure.
+22.why should we only use return 0 
+      This values is used to verify if the program ran successfully.
+      In link 0 means success  and any other values means failure.
 
- what is preprocessor?
+ 23.what is preprocessor?
         In a C system,a preprocessor program executes automatically before the compiler’s translation phase begins.
         The C preprocessor obeys special commands called preprocessor directives, 
         
-what is compailer.what dose it do? 
+ 24.what is compailer.what dose it do? 
         The compiler translatesthe C program into machine language-code (also referred to as object code).
      or Compilers translate high-level language programs into machine-language programs. High-level
         languages (like C) contain English words and conventional mathematical notations
         
-what is secoundery devise?        
-   at first we wants to write the c program what we have known with help of editor program, and then copail it.
-   if we get error correct it. store in to secounddery device like hard disk.the compiler translates the C program into machine-language
-   code.
-what is linker   
-    A linker links object code with the code for library functions to produce an executable image. 
-    (OR) In computer science, a linker is a computer program that takes one or more object files generated by a
-    compiler and combines them into one, executable program.
+ 25.what is secoundery devise?        
+      at first we wants to write the c program what we have known with help of editor program, and then copail it.
+      if we get error correct it. store in to secounddery device like hard disk.the compiler translates the C program into machine-language
+      code.
+ 26.what is linker   
+       A linker links object code with the code for library functions to produce an executable image. 
+       (OR) In computer science, a linker is a computer program that takes one or more object files generated by a
+       compiler and combines them into one, executable program.
     
-what is loader
-     Before a program can be executed, the program must first
-     be placed in memory. This is done by the loader, which takes the executable image from
-     disk and transfers it to memory
-     
-   To write the programe on the linux baserd system we wants to follow some rules,
+ 27.what is loader
+       Before a program can be executed, the program must first
+       be placed in memory. This is done by the loader, which takes the executable image from
+       disk and transfers it to memory
+  
+  
+    To write the programe on the linux baserd system we wants to follow some rules,
  editor,preprocessor,compailer,linker,loader,cpu.
  we need to type the c program with the help of editor command, and that must store on secoundery devise.
  preprocessor is used to executes the programe before the compailation.
  compailer used compail the programes and stores in the diskes, executes the errors
  linker combains one or more files and combine in to one.
  loader is used to store the programe into memory,
+ 
+ 28.what is identifier
+       An identifier is a series of characters consisting
+       of letters, digits and underscores (_) that does not begin with a digit
+    
+    
+   The scanf has two arguments, "%d" and &integer1.
+   The first argument, the format control string, indicates the type of data that should be input by the user.
+   The second argument of scanf begins with an ampersand (&)—called the address operator in C- followed by the variable name
+
+29.what is string?
+      A string is a series of characters treated as a single unit. A string may include letters,
+      digits and various special characters such as +, -, *, / and $.
+     
+     
