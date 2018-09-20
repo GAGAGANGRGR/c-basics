@@ -47,8 +47,12 @@
       
 11.What is a variable?
      A variable stores values
-  What are values.
-      Values can be numbers - integers, floacting point number ( real numbers), characters - Simple values.
+char: Can hold/store a character in it.
+int: Used to hold an integer.
+float: Used to hold a float value.
+double: Used to hold a double value.  
+    What are values.
+         Values can be numbers - integers, floacting point number ( real numbers), characters - Simple values.
                           20, 2.2, 'c'.
   
 12.what is a compiler?
