@@ -1,4 +1,7 @@
-hiii
-You can divide up your code into separate functions
 what is code
 function's name, return type, and parameters. what r these
+C programming consists of a function header and a function body. what is function header and function body
+
+When a program calls a function, the program control is transferred to the called function. A called function performs a defined task and when its
+return statement is executed or when its function-ending closing brace is reached, it returns the program control back to the main program.
+i have not undrerstod these statement
